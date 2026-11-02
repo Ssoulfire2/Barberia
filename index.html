@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserva tu cita</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <main>
+    <h1>Reserva tu cita</h1>
+
+    <section>
+      <h2>1. Servicio</h2>
+      <div id="servicios" class="opciones"></div>
+    </section>
+
+    <section id="sec-fecha" hidden>
+      <h2>2. Día</h2>
+      <div id="fechas" class="opciones"></div>
+    </section>
+
+    <section id="sec-barbero" hidden>
+      <h2>3. Barbero</h2>
+      <div id="barberos" class="opciones"></div>
+    </section>
+
+    <section id="sec-hora" hidden>
+      <h2>4. Hora</h2>
+      <div id="horas" class="opciones"></div>
+    </section>
+
+    <section id="sec-datos" hidden>
+      <h2>5. Tus datos</h2>
+      <input id="nombre" type="text" placeholder="Tu nombre" autocomplete="name">
+      <input id="telefono" type="tel" placeholder="Tu teléfono (809-000-0000)" autocomplete="tel">
+      <button id="confirmar" class="principal">Confirmar cita</button>
+      <p id="mensaje" class="mensaje"></p>
+    </section>
+
+    <section id="sec-ok" hidden>
+      <h2>¡Cita confirmada!</h2>
+      <p id="resumen"></p>
+      <a id="whatsapp" class="principal" target="_blank" rel="noopener">Enviar confirmación por WhatsApp</a>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
