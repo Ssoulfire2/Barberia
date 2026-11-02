@@ -1,6 +1,6 @@
 // ====== CONFIGURACIÓN ======
-const SUPABASE_URL = 'https://TU-URL-REAL.supabase.co';
-const SUPABASE_KEY = 'TU-CLAVE-REAL-COMPLETA';
+const SUPABASE_URL = 'https://wxusgdjpwaoolwatugto.supabase.co';
+const SUPABASE_KEY = 'F50@#plata20.1sb_publishable_fDQ_eTgYflLXh9dK_nbsiw_43ub-olm';
 const WHATSAPP_BARBERIA = '1809XXXXXXX';
 const DIAS_A_MOSTRAR = 14;   // cuántos días hacia adelante se puede reservar
 const PASO_MIN = 30;         // las horas se ofrecen cada 30 minutos
